@@ -102,3 +102,34 @@ footer {
 .social-icons a:hover {
   color: #fff;
 }
+/* Section Headings with Icons */
+section h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f8c200;
+  font-size: 1.8rem;
+}
+
+/* Collapsible Button */
+.toggle-btn {
+  margin-top: 10px;
+  background-color: #f8c200;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.toggle-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Hidden Content Initially */
+.collapsible-content {
+  display: none;
+  margin-top: 20px;
+}
