@@ -149,3 +149,17 @@ section h2 {
   border-left: 3px solid #f8c200;
   padding-left: 15px;
 }
+/* Dark/Light Toggle */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #f8c200;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 2000;
+}
