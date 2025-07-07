@@ -163,3 +163,21 @@ section h2 {
   cursor: pointer;
   z-index: 2000;
 }
+body.light-mode {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+body.light-mode .navbar,
+body.light-mode .toggle-btn {
+  background-color: #000;
+  color: #f8c200;
+}
+
+body.light-mode .social-icons a {
+  color: #000;
+}
+
+body.light-mode section h2 {
+  color: #000;
+}
