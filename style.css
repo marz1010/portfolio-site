@@ -78,3 +78,27 @@ footer {
 .navbar nav a i {
   margin-right: 5px;
 }
+/* === Contact Section & Social Icons === */
+#contact {
+  background-color: #1a1a1a;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 28px;
+}
+
+.social-icons a {
+  color: #f8c200;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
