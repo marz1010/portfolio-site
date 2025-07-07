@@ -19,9 +19,18 @@
 </header>
 
   <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a passionate front-end developer with a background in environmental science, logistics, and client service. I'm currently advancing through the ALX Software Engineering Program, focusing on building clean, responsive web interfaces using HTML, CSS, and JavaScript.</p>
-  </section>
+  <h2><i class="fas fa-user"></i> About Me</h2>
+  <button class="toggle-btn" onclick="toggleSection('aboutContent')">Show About</button>
+
+  <div id="aboutContent" class="collapsible-content">
+    <p>
+      I’m a front-end developer with a background in Animal and Environmental Biology. Through the ALX Software Engineering Program, I transitioned into tech and gained skills in HTML, CSS, JavaScript, and GitHub.
+    </p>
+    <p>
+      I’ve led teams, managed clients, and built web interfaces that solve real problems.
+    </p>
+  </div>
+</section>
 
   <section id="projects">
   <h2><i class="fas fa-briefcase"></i> Projects</h2>
@@ -48,16 +57,28 @@
   </div>
 </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
+ <section id="skills">
+  <h2><i class="fas fa-code"></i> Skills</h2>
+  <button class="toggle-btn" onclick="toggleSection('skillsContent')">Show Skills</button>
+
+  <div id="skillsContent" class="collapsible-content">
+    <h3>Technical Skills</h3>
     <ul>
       <li>HTML5, CSS3, JavaScript (ES6+)</li>
       <li>Responsive Web Design</li>
       <li>Git & GitHub</li>
-      <li>Client Communication & Teamwork</li>
-      <li>Problem Solving & Adaptability</li>
+      <li>UI/UX (basic)</li>
     </ul>
-  </section>
+
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Communication</li>
+      <li>Team Collaboration</li>
+      <li>Time Management</li>
+      <li>Problem Solving</li>
+    </ul>
+  </div>
+</section>
 
   <section id="experience">
     <h2>Experience</h2>
