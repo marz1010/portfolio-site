@@ -38,3 +38,43 @@ footer {
   background: #000;
   color: #fff;
 }
+/* === Floating Navbar Styling === */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f8c200;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  color: #f8c200;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 i {
+  margin-right: 8px;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f8c200;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #fff;
+}
+
+.navbar nav a i {
+  margin-right: 5px;
+}
